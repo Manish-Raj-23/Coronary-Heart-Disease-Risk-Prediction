@@ -4,8 +4,8 @@ import numpy as np
 from joblib import load  # Or use pickle if preferred
 
 # Load the trained model
-model = load('Coronary-Heart-Disease-Risk-Prediction/Heart-Disease-Predictor/heart_disease_model.pkl')
-scaler = load('Coronary-Heart-Disease-Risk-Prediction/Heart-Disease-Predictor/StandardScaler_HDModel.pkl')
+model = load('Heart-Disease-Predictor/heart_disease_model.pkl')
+scaler = load('Heart-Disease-Predictor/StandardScaler_HDModel.pkl')
 
 # Define the app
 st.title("Coronary Heart Disease Risk Prediction")
